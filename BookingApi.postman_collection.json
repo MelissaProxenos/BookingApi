@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "33974fe3-1b3b-48fd-8f68-854a1d70124a",
+		"name": "BookingApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://localhost:44323/v1/api/bookings/create",
+			"protocolProfileBehavior": {
+				"strictSSL": false
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"bookingTime\": \"09:00\",\r\n\"name\":\"John Smith\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44323/v1/api/bookings/create",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44323",
+					"path": [
+						"v1",
+						"api",
+						"bookings",
+						"create"
+					]
+				},
+				"description": "Booking API - Create Booking"
+			},
+			"response": []
+		}
+	]
+}

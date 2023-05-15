@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "gNBHPdThVqDmv+09hAsyTWDitjBFxQheZ2F6Pz5YpAI=",
+  "Source": "Booking.DataStore",
+  "BasePath": "_content/Booking.DataStore",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
